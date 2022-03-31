@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  //activityMain
+  <dimen name="activityMain_imgIconHome_layoutWidth">182dp</dimen>
+  <dimen name="activityMain_imgIconHome_layoutHeight">239dp</dimen>
+  <dimen name="activityMain_imgIconHome_marginTop">96dp</dimen>
+
+  <dimen name="activityMain_editTitle2_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_editTitle2_layoutHeight">48dp</dimen>
+  <dimen name="activityMain_editTitle2_marginTop">8dp</dimen>
+
+  <dimen name="activityMain_editTitle_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_editTitle_layoutHeight">48dp</dimen>
+  <dimen name="activityMain_editTitle_marginTop">8dp</dimen>
+
+  <dimen name="activityMain_txtTitle2_layoutWidth">343dp</dimen>
+  <dimen name="activityMain_txtTitle2_layoutHeight">24dp</dimen>
+  <dimen name="activityMain_txtTitle2_marginTop">12dp</dimen>
+  <dimen name="activityMain_txtTitle2_marginStart">24dp</dimen>
+  <dimen name="activityMain_txtTitle2_marginEnd">8dp</dimen>
+
+  <dimen name="activityMain_txtTitle_layoutWidth">343dp</dimen>
+  <dimen name="activityMain_txtTitle_layoutHeight">24dp</dimen>
+  <dimen name="activityMain_txtTitle_marginTop">72dp</dimen>
+  <dimen name="activityMain_txtTitle_marginStart">24dp</dimen>
+  <dimen name="activityMain_txtTitle_marginEnd">8dp</dimen>
+
+  <dimen name="activityMain_txtTitle3_layoutWidth">210dp</dimen>
+  <dimen name="activityMain_txtTitle3_layoutHeight">21dp</dimen>
+  <dimen name="activityMain_txtTitle3_marginTop">16dp</dimen>
+  <dimen name="activityMain_txtTitle3_lineHeight">21dp</dimen>
+  <dimen name="activityMain_txtTitle3_textSize">14sp</dimen>
+
+  <dimen name="activityMain_txtTitle4_layoutWidth">121dp</dimen>
+  <dimen name="activityMain_txtTitle4_layoutHeight">21dp</dimen>
+  <dimen name="activityMain_txtTitle4_marginTop">34dp</dimen>
+  <dimen name="activityMain_txtTitle4_marginBottom">52dp</dimen>
+  <dimen name="activityMain_txtTitle4_lineHeight">21dp</dimen>
+  <dimen name="activityMain_txtTitle4_textSize">14sp</dimen>
+
+  <dimen name="activityMain_btnMessage_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_btnMessage_layoutHeight">55dp</dimen>
+  <dimen name="activityMain_btnMessage_marginTop">12dp</dimen>
+  <dimen name="activityMain_btnMessage_cornerRadius">30dp</dimen>
+
+  <dimen name="activityMain_btnSms_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_btnSms_layoutHeight">55dp</dimen>
+  <dimen name="activityMain_btnSms_marginTop">34dp</dimen>
+  <dimen name="activityMain_btnSms_cornerRadius">30dp</dimen>
+
+  <dimen name="activityMain_btnApple_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_btnApple_layoutHeight">55dp</dimen>
+  <dimen name="activityMain_btnApple_marginTop">8dp</dimen>
+  <dimen name="activityMain_btnApple_cornerRadius">30dp</dimen>
+
+  <dimen name="activityMain_btnFacebook_layoutWidth">327dp</dimen>
+  <dimen name="activityMain_btnFacebook_layoutHeight">55dp</dimen>
+  <dimen name="activityMain_btnFacebook_marginTop">8dp</dimen>
+  <dimen name="activityMain_btnFacebook_cornerRadius">30dp</dimen>
+
+  //baseEditText
+  <dimen name="baseEditText_txtBaseEditText_lineHeight">24dp</dimen>
+  <dimen name="baseEditText_txtBaseEditText_paddingStart">12dp</dimen>
+  <dimen name="baseEditText_txtBaseEditText_layoutWidth">160dp</dimen>
+  <dimen name="baseEditText_txtBaseEditText_layoutHeight">20dp</dimen>
+  <dimen name="baseEditText_txtBaseEditText_textSize">16sp</dimen>
+
+  //baseTextView
+  <dimen name="baseTextView_txtBaseText_lineHeight">24dp</dimen>
+  <dimen name="baseTextView_txtBaseText_textSize">16sp</dimen>
+
+</resources>

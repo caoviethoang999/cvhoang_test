@@ -1,0 +1,26 @@
+<resources>
+  <string name="app_name">cvhoang_test</string>
+
+  //activityMain
+  <string name="activityMain_imgIconHome_contentDescription">This is a landscape</string>
+
+  <string name="activityMain_edtTitle2_text">パスワードを入力</string>
+
+  <string name="activityMain_edtTitle_text">メールアドレスを入力</string>
+
+  <string name="activityMain_txtTitle2_text">パスワード</string>
+
+  <string name="activityMain_txtTitle_text">メールアドレス</string>
+
+  <string name="activityMain_txtTitle3_text">パスワードを忘れた方はこちら</string>
+
+  <string name="activityMain_txtTitle4_text">新規登録はこちら</string>
+
+  <string name="activityMain_btnMessage_text">メールアドレスでサインイン</string>
+
+  <string name="activityMain_btnSms_text">SMSでサインイン</string>
+
+  <string name="activityMain_btnApple_text">Appleでサインイン</string>
+
+  <string name="activityMain_btnFacebook_text">Facebookでサインイン</string>
+</resources>

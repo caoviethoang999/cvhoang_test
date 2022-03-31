@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/txtBaseEditText"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingStart="@dimen/baseEditText_txtBaseEditText_paddingStart"
+  android:autofillHints="name"
+  android:background="@drawable/background_text"
+  android:fontFamily="@font/yugothib"
+  android:hint="@string/app_name"
+  android:inputType="text"
+  android:lineHeight="@dimen/baseEditText_txtBaseEditText_lineHeight"
+  android:textFontWeight="700"
+  android:textSize="@dimen/baseEditText_txtBaseEditText_textSize"
+  app:layout_constraintBottom_toBottomOf="parent"
+  app:layout_constraintStart_toStartOf="parent"
+  app:layout_constraintTop_toTopOf="parent"
+  tools:ignore="RtlSymmetry" />

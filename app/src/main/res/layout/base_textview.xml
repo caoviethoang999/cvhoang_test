@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtBaseText"
+    android:textStyle="normal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/yugothib"
+    android:lineHeight="@dimen/baseTextView_txtBaseText_lineHeight"
+    android:textColor="@color/base_black"
+    android:textFontWeight="700"
+    android:textSize="@dimen/baseTextView_txtBaseText_textSize" />

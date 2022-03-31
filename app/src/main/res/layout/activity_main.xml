@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+      android:id="@+id/imgIconHome"
+      android:layout_width="@dimen/activityMain_imgIconHome_layoutWidth"
+      android:layout_height="@dimen/activityMain_imgIconHome_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_imgIconHome_marginTop"
+      android:contentDescription="@string/activityMain_imgIconHome_contentDescription"
+      android:src="@drawable/ic_cavacom"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.cvhoang_test.BaseEditText
+      android:id="@+id/edtTitle2"
+      android:layout_width="@dimen/activityMain_editTitle2_layoutWidth"
+      android:layout_height="@dimen/activityMain_editTitle2_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_editTitle2_marginTop"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtTitle2"
+      app:titleEditText="@string/activityMain_edtTitle2_text" />
+
+    <com.example.cvhoang_test.BaseEditText
+      android:id="@+id/edtTitle"
+      android:layout_width="@dimen/activityMain_editTitle_layoutWidth"
+      android:layout_height="@dimen/activityMain_editTitle_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_editTitle_marginTop"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtTitle"
+      app:titleEditText="@string/activityMain_edtTitle_text" />
+
+    <com.example.cvhoang_test.BaseTextField
+      android:id="@+id/txtTitle2"
+      android:layout_width="@dimen/activityMain_txtTitle2_layoutWidth"
+      android:layout_height="@dimen/activityMain_txtTitle2_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_txtTitle2_marginTop"
+      android:layout_marginStart="@dimen/activityMain_txtTitle2_marginStart"
+      android:layout_marginEnd="@dimen/activityMain_txtTitle2_marginEnd"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/edtTitle"
+      app:title="@string/activityMain_txtTitle2_text" />
+
+    <com.example.cvhoang_test.BaseTextField
+      android:id="@+id/txtTitle"
+      android:layout_width="@dimen/activityMain_txtTitle_layoutWidth"
+      android:layout_height="@dimen/activityMain_txtTitle_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_txtTitle_marginTop"
+      android:layout_marginStart="@dimen/activityMain_txtTitle_marginStart"
+      android:layout_marginEnd="@dimen/activityMain_txtTitle_marginEnd"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/imgIconHome"
+      app:title="@string/activityMain_txtTitle_text" />
+
+    <com.example.cvhoang_test.BaseTextField
+      android:id="@+id/txtTitle3"
+      android:layout_width="@dimen/activityMain_txtTitle3_layoutWidth"
+      android:layout_height="@dimen/activityMain_txtTitle3_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_txtTitle3_marginTop"
+      app:isCustomize="true"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnMessage"
+      app:textColor="@color/blue_magenta_medium_light"
+      app:textLineHeight="@dimen/activityMain_txtTitle3_lineHeight"
+      app:textSize="@dimen/activityMain_txtTitle3_textSize"
+      app:title="@string/activityMain_txtTitle3_text" />
+
+    <com.example.cvhoang_test.BaseTextField
+      android:id="@+id/txtTitle4"
+      android:layout_width="@dimen/activityMain_txtTitle4_layoutWidth"
+      android:layout_height="@dimen/activityMain_txtTitle4_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_txtTitle4_marginTop"
+      android:layout_marginBottom="@dimen/activityMain_txtTitle4_marginBottom"
+      app:isCustomize="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnFacebook"
+      app:textColor="@color/blue_magenta_medium_light"
+      app:textLineHeight="@dimen/activityMain_txtTitle4_lineHeight"
+      app:textSize="@dimen/activityMain_txtTitle3_textSize"
+      app:title="@string/activityMain_txtTitle4_text" />
+
+    <com.google.android.material.button.MaterialButton
+      android:enabled="false"
+      android:id="@+id/btnMessage"
+      android:layout_width="@dimen/activityMain_btnMessage_layoutWidth"
+      android:layout_height="@dimen/activityMain_btnMessage_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_btnMessage_marginTop"
+      android:backgroundTint="@color/blue_magenta_medium_light"
+      android:text="@string/activityMain_btnMessage_text"
+      app:cornerRadius="@dimen/activityMain_btnMessage_cornerRadius"
+      app:icon="@drawable/ic_vector"
+      app:iconGravity="start"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/edtTitle2" />
+
+    <com.google.android.material.button.MaterialButton
+      android:id="@+id/btnSms"
+      style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+      android:layout_width="@dimen/activityMain_btnSms_layoutWidth"
+      android:layout_height="@dimen/activityMain_btnSms_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_btnSms_marginTop"
+      android:backgroundTint="@color/white"
+      android:text="@string/activityMain_btnSms_text"
+      android:textColor="@color/base_black"
+      app:cornerRadius="@dimen/activityMain_btnSms_cornerRadius"
+      app:icon="@drawable/ic_sms"
+      app:iconGravity="start"
+      app:iconTint="@color/base_black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtTitle3"
+      app:strokeColor="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+      android:id="@+id/btnApple"
+      android:layout_width="@dimen/activityMain_btnApple_layoutWidth"
+      android:layout_height="@dimen/activityMain_btnApple_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_btnApple_marginTop"
+      android:backgroundTint="@color/base_black"
+      android:text="@string/activityMain_btnApple_text"
+      android:textColor="@color/white"
+      app:cornerRadius="@dimen/activityMain_btnApple_cornerRadius"
+      app:icon="@drawable/ic_apple"
+      app:iconGravity="start"
+      app:iconTint="@color/white"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnSms" />
+
+    <com.google.android.material.button.MaterialButton
+      android:id="@+id/btnFacebook"
+      android:layout_width="@dimen/activityMain_btnFacebook_layoutWidth"
+      android:layout_height="@dimen/activityMain_btnFacebook_layoutHeight"
+      android:layout_marginTop="@dimen/activityMain_btnFacebook_marginTop"
+      android:backgroundTint="@color/cyan_blue"
+      android:text="@string/activityMain_btnFacebook_text"
+      android:textColor="@color/white"
+      app:cornerRadius="@dimen/activityMain_btnFacebook_cornerRadius"
+      app:icon="@drawable/ic_facebook"
+      app:iconGravity="start"
+      app:iconTint="@color/white"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnApple" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
